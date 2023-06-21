@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Company>Paco Garcia Serrano</Company>
+    <Description>Nuget con los modelos de Series y Personajes</Description>
+    <PackageIcon>spiderman1.png</PackageIcon>
+    <Title>Nuget Series Personajes</Title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Pictures\spiderman1.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.18" />
+  </ItemGroup>
+
+</Project>
